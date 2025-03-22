@@ -16,7 +16,7 @@ public class FindWord {
         String[] arr=new String[n];
         System.out.print("Enter sentences:");
         for(int i=0;i<n;i++){
-            arr[i]=sc.next();
+            arr[i]=sc.nextLine();
         }
         System.out.print("Enter word to find:");
         String word=sc.next();
